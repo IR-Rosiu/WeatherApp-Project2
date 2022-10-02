@@ -1,6 +1,8 @@
 const bucharest = document.querySelector(".bucharest");
 const timisoara = document.querySelector(".timisoara");
 const oradea = document.querySelector(".oradea");
+const cluj = document.querySelector(".cluj");
+const arad = document.querySelector(".arad");
 const currentCity = document.querySelector("#currentCity");
 
 function changeLocation(city) {
@@ -17,4 +19,10 @@ timisoara.addEventListener("click", () => {
 });
 oradea.addEventListener("click", () => {
   changeLocation("Oradea");
+});
+cluj.addEventListener("click", () => {
+  changeLocation("Cluj");
+});
+arad.addEventListener("click", () => {
+  changeLocation("Arad");
 });
